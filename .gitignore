@@ -1,0 +1,42 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore output directories
+dist/
+build/
+out/
+
+# Ignore TypeScript compilation artifacts
+*.tsbuildinfo
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore local environment settings
+.env
+
+# Ignore package lock files (you might want to keep these depending on your project)
+# Uncomment the following line if you don't want to version control package locks
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# Ignore generated documentation
+docs/

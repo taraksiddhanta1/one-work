@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",  // es6 version of current node 
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,  // to use ESlint to catch error at dev server
+        "forceConsistentCasingInFileNames": true,  // check camel cases and other cases in project
+        "outDir": "./dist" // project output folder after compiling 
+
+
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
